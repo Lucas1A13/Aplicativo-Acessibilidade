@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Os Cara Cast</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>OS CARA CAST</h1>
+    <p>Seu passa tempo diário</p>
+    </header>
+
+</nav>
+<button onclick="mostrarTela('aoVivo')">Ao Vivo</button>
+<button onclick="mostrarTela('salvos')">Salvos</button>
+<button onclick="mostrarTela('config')">Configuração</button>
+</nav>
+
+<main>
+    <section id="aoVivo" class="tela ativa">
+        <h2>AO VIVO</h2>
+        <video controls width="100%">
+            <source src="exemplo.mp4" type="video/mp4">
+            seu navegador não suporta video.
+            </video>
+            <p>Legenda do video ao vivo.</p>
+</section>
+
+<section id="salvos" class="tela">
+    <h2>Episódio Salvos</h2>
+    <p>Você ainda não salvou nenhum episódio.</p>
+    </section>
+
+    <section id="config" class="tela">
+        <h2>Configuração</h2>
+        <label>
+            <input type="checkbox"> Notificações
+            </label>
+            </section>
+</main>
+
+<script scr="script.js"></script>
+</body>
+</html>
